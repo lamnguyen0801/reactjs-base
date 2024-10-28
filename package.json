@@ -4,8 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist -b gh-pages",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
